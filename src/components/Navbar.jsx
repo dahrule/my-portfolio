@@ -10,7 +10,8 @@ import {
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo_daniel.png';
-import Resume from '../assets/pdfs/resume.pdf';
+import Resume from '../assets/pdfs/resume.pdf'
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -25,19 +26,19 @@ const Navbar = () => {
       {/* menu */}
       <ul className='hidden md:flex'>
         <li>
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="/about">About</a>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <a href="/skills">Skills</a>
+          <Link to="/skills">Skills</Link>
         </li>
         <li>
-          <a href="/work">Work</a>
+          <Link to="/work">Work</Link>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
 
@@ -55,19 +56,24 @@ const Navbar = () => {
         }
       >
         <li className='py-6 text-4xl'>
-          <a href="/">Home</a>
+          {/*<a href="/">Home</a> */}
+          <Link to="/">Home</Link>
         </li>
         <li className='py-6 text-4xl'>
-          <a href="/about">About</a>
+          {/*<a href="/about">About</a>*/}
+          <Link to="/about">About</Link>
         </li>
         <li className='py-6 text-4xl'>
-          <a href="/skills">Skills</a>
+          {/*<a href="/skills">Skills</a>*/}
+          <Link to="/skills">Skills</Link>
         </li>
         <li className='py-6 text-4xl'>
-          <a href="/work">Work</a>
+          {/*<a href="/work">Work</a>*/}
+          <Link to="/work">Work</Link>
         </li>
         <li className='py-6 text-4xl'>
-          <a href="/contact">Contact</a>
+          {/*<a href="/contact">Contact</a>*/}
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
 
