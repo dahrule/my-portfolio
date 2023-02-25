@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.5648e68a.css",
-    "main.js": "/my-portfolio/static/js/main.0a5e61e6.js",
+    "main.css": "/my-portfolio/static/css/main.ce4748a8.css",
+    "main.js": "/my-portfolio/static/js/main.ba4b5a73.js",
     "static/media/bsc-thesis-daniel-ruiz.pdf": "/my-portfolio/static/media/bsc-thesis-daniel-ruiz.a57b56526eff852d9d9f.pdf",
     "static/media/tlaloc-vessel-infographic.pdf": "/my-portfolio/static/media/tlaloc-vessel-infographic.be6fe27012e080c18d75.pdf",
     "static/media/vr-diver-infographic.pdf": "/my-portfolio/static/media/vr-diver-infographic.9033749b8eccd7167871.pdf",
@@ -17,11 +17,11 @@
     "static/media/vrdiver2.jpg": "/my-portfolio/static/media/vrdiver2.225a8d2e45d8e3fd3cb1.jpg",
     "static/media/blender.png": "/my-portfolio/static/media/blender.2881b06b64a671e55060.png",
     "index.html": "/my-portfolio/index.html",
-    "main.5648e68a.css.map": "/my-portfolio/static/css/main.5648e68a.css.map",
-    "main.0a5e61e6.js.map": "/my-portfolio/static/js/main.0a5e61e6.js.map"
+    "main.ce4748a8.css.map": "/my-portfolio/static/css/main.ce4748a8.css.map",
+    "main.ba4b5a73.js.map": "/my-portfolio/static/js/main.ba4b5a73.js.map"
   },
   "entrypoints": [
-    "static/css/main.5648e68a.css",
-    "static/js/main.0a5e61e6.js"
+    "static/css/main.ce4748a8.css",
+    "static/js/main.ba4b5a73.js"
   ]
 }
