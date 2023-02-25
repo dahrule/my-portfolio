@@ -44,6 +44,8 @@ const Work = () => {
                 <button
                   className="text-center rounded-lg px-4 py-3 m-2
                             bg-white text-gray-700 font-bold text-lg"
+                  disabled={item.github === ""}
+                  style={item.github === "" ? { opacity: 0.5 } : {}}
                 >
                   Source
                 </button>
@@ -61,11 +63,13 @@ const Work = () => {
             </div>
             <br></br>
             {/*<Link to={item.details}>Learn more...</Link>*/}
-            <a href={item.details} target="_blank">Learn more...</a>
+            <a href={item.details} 
+               target="_blank">
+               {item.details === "" ? "" : "Learn more..."}
+            </a>
           </div>
         </div>
       ))}
-
 
       </div>
       </div>

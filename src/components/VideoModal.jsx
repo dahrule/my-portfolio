@@ -15,18 +15,24 @@ export class VideoModal extends Component {
     this.setState({ isOpen: true });
   }
   render() {
+
+    const { videoId } = this.props;
+    const isVideoDisabled = !videoId;
+
     return (
       <div style={{display: "inline-block"}}>
         <div>
           <ModalVideo
             channel="youtube"
             isOpen={this.state.isOpen}
-            videoId={this.props.videoId}
+            videoId={ videoId }
             onClose={() => this.setState({ isOpen: false })}
           />
           <button className="text-center rounded-lg px-4 py-3 m-2
                             bg-white text-gray-700 font-bold text-lg" 
-                            onClick={this.openModal}>
+                  disabled={isVideoDisabled}
+                  style={isVideoDisabled ? { opacity: 0.5 } : {}}
+                  onClick={this.openModal}>
             Video
           </button>
         </div>

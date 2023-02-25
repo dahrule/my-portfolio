@@ -18,12 +18,12 @@ const About = () => {
             </div>
             <div>
               <p>
-              I am a highly motivated XR developer with IoT skills, with a particular focus on implementing novel user interactions for VR and AR experiences. 
-              I am exploring the application of IoT technologies in XR experiences to enhance the user experience.
+                {/*"As a virtual and augmented reality developer, I am passionate about creating immersive experiences that blur the line between the digital and physical worlds. By combining the latest XR technology with the power of IoT, I am pushing the boundaries of what's possible in terms of user engagement and interactivity. Whether it's exploring a virtual world through a smartwatch or controlling a robotic arm with hand gestures, my goal is to deliver unforgettable experiences that leave a lasting impression. Join me on the cutting edge of XR and IoT innovation, where the future of immersive technology awaits!*/}
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
               <br></br>
-              My strong programming skills enable me to write clean, maintainable code. 
-              As a passionate VR enthusiast, I am always seeking out new challenges and opportunities to apply my skills and creativity. 
-              I am driven by a desire to create immersive and memorable experiences for users, and I thrive in fast-paced, collaborative environments. 
+              
+              <br></br>
+              
               </p>  
             </div>
           </div>

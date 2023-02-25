@@ -34,7 +34,7 @@ export const data=[
         image:Image,
         github:"https://github.com/dahrule/ThreeTrialsOfFantasy.git",
         live:"",
-        details:project_template,
+        details:"",
         tags:"VR | Multiplayer | Unity",
     },
     {
@@ -43,7 +43,7 @@ export const data=[
         image:Profiler,
         github:Thesis,
         live:"",
-        details:project_template,
+        details:"",
         tags:"Data analysis | Arduino",
     },
     
