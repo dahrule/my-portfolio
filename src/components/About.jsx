@@ -14,14 +14,17 @@ const About = () => {
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-4xl font-bold'>
-              <p>Hi. I'm Sai Kumar, nice to meet you. Please take a look around.</p>
+              <p>Hi. I'm Daniel Ruiz. Please take a look around.</p>
             </div>
             <div>
-              <p>I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?</p>  
+              <p>
+              I am a highly motivated XR developer with IoT skills, with a particular focus on implementing novel user interactions for VR and AR experiences. 
+              I am exploring the application of IoT technologies in XR experiences to enhance the user experience.
+              <br></br>
+              My strong programming skills enable me to write clean, maintainable code. 
+              As a passionate VR enthusiast, I am always seeking out new challenges and opportunities to apply my skills and creativity. 
+              I am driven by a desire to create immersive and memorable experiences for users, and I thrive in fast-paced, collaborative environments. 
+              </p>  
             </div>
           </div>
       </div>

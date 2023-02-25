@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
+import Project from "./components/ProjectDetails";
 import {Routes, Route} from "react-router-dom";
 
 //SINGLE-PAGE
@@ -31,6 +32,7 @@ function App() {
         <Route path="/skills" element={<Skills/>}/>
         <Route path="/work" element={<Work/>}/>
         <Route path="/contact" element={<Contact/>}/>
+        <Route path="/project" element={<Project/>}/>
       </Routes>
     </div>
   );

@@ -10,8 +10,9 @@ import {
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo_daniel.png';
-import Resume from '../assets/pdfs/resume.pdf'
+import Resume from '../assets/pdfs/daniel-ruiz-arvr-unity-resume.pdf'
 import { Link } from "react-router-dom";
+import '../index.css';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -79,6 +80,7 @@ const Navbar = () => {
 
       {/* Social icons */}
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+      
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
